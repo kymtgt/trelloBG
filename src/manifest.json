@@ -1,0 +1,19 @@
+{
+  "name": "trelloBG",
+  "version": "1.1",
+  "manifest_version": 2,
+  "icons": {
+    "16" : "x16.png",
+    "48" : "x48.png",
+    "128" : "x128.png"
+  },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+  },
+  "options_page": "options.html"
+}
